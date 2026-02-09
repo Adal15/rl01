@@ -1276,6 +1276,11 @@ animation-delay: 0.8s;
   position: relative;
   /* border-top: 6px solid #CA9817;  */
 }
+@media (max-width: 768px) {
+  .hero-stats {
+    display: none;
+  }
+}
 
 /* Orange top line */
 /* .mv-card::before {
