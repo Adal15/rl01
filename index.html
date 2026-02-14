@@ -10,23 +10,26 @@
     />
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./main.js" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Beyond+The+Mountain&display=swap"
+    />
 
-     <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-        />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
-        <!-- ===== Font Awesome ===== -->
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-        />
+    <!-- ===== Font Awesome ===== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
 
-        <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-/>
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
 
   <body>
@@ -34,54 +37,79 @@
       <nav class="container">
         <div class="logo">
           <img
-            src="./just_rely_logo-removebg-preview.png"
+            id="navbar-logo"
+            src="./logowhitw.png"
             alt="Just Rely Logo"
             class="nav-logo"
           />
-
-          <!-- <span style="display: none">JUST RELY</span> -->
         </div>
         <ul class="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About Us</a></li>
-          <li><a href="#sectors">Sectors</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#sustainability">Sustainability</a></li>
-          <!-- <li class="jr-menu-item has-dropdown">
-          <a href="#">Services We Offer ▼ </a>
-          <ul class="jr-dropdown">
-            <li><a href="#">Sell Property</a></li>
-            <li><a href="#">Buy Property</a></li>
-            <li><a href="#">Property Handover</a></li>
-            <li><a href="#">Legal Services</a></li>
-            <li><a href="#">Development</a></li>
-            <li><a href="#">Property Management</a></li>
-            <li><a href="#">Mortgage Calculator</a></li>
-          </ul>
-        </li> -->
+
           <li class="jr-menu-item has-dropdown">
-            <a href="#">Services We Offer ▼</a>
+            <a href="#">Services We Offer &#9660;</a>
 
             <div class="jr-dropdown mega-dropdown">
-              <!-- LEFT: links -->
               <ul class="jr-dropdown-links">
-                <li><a href="#">Engineering & Design Services</a></li>
-                <li><a href="#">Civil Contracting Works</a></li>
-                <li><a href="#">MEP Contracting</a></li>
-                <li><a href="#">Interior Fit-Out Contracting</a></li>
-                <li><a href="#"> Renovation & Maintenance Works</a></li>
-                <li><a href="#"> Fire & Safety Contracting</a></li>
-                <li><a href="#"> ELV & Low Current Systems</a></li>
-                <li><a href="#"> Infrastructure & External Works</a></li>
-                <li><a href="#"> Industrial & External Works</a></li>
-                <li><a href="#"> Industrial Works</a></li>
-              </ul>
+                <li>
+                  <a href="#" data-image="./drop-down/civil-construction.webp">
+                    Civil Contracting Works
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    data-image="./drop-down/technician-checking-heating-system-boiler-room.jpg"
+                  >
+                    MEP Contracting
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    data-image="./drop-down/ms-fabrication-work-381897622-ds6l2.avif"
+                  >
+                    SS And Fabrication Works
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    data-image="./drop-down/building-renovation-services.jpg"
+                  >
+                    Renovation & Maintenance Works
+                  </a>
+                </li>
+                <li>
+                  <a href="#" data-image="./drop-down/fire.webp">
+                    Fire & Safety Contracting
+                  </a>
+                </li>
+                <li>
+                  <a href="#" data-image="./drop-down/elec.jpg">
+                    ELV & Low Current Systems
+                    <img src="" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#" data-image="./drop-down/infra.jpg">
+                    Infrastructure & External Works
+                  </a>
+                </li>
 
-              <!-- RIGHT: image -->
+                <li>
+                  <a href="#" data-image="./drop-down/indus.webp">
+                    Industrial Contracting
+                  </a>
+                </li>
+              </ul>
               <div class="jr-dropdown-image">
                 <img
-                  src="./Gemini_Generated_Image_4jfo724jfo724jfo.png"
-                  alt="Engineering Services"
+                  id="dropdown-preview"
+                  src="./drop-down/erwor.jpg"
+                  alt="Service Preview"
                 />
               </div>
             </div>
@@ -95,29 +123,6 @@
     <main>
       <section id="hero" class="hero-slider">
         <div class="slider-wrapper">
-          <!-- Slide 1 -->
-          <!-- <div
-            class="slide active"
-            style="
-              background-image:
-                linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-                url(./videos/edit\ \(online-video-cutter.com\).mp4);
-            "
-          >
-            <div class="hero-content container">
-              <h1>
-                <span class="font-highlight">Exclusive Homes</span> for<br />The
-                Globally Ambitious
-              </h1>
-              <p>Discover luxury living with Just Rely.</p>
-              
-              <div>
-                <a href="#projects" class="gradient-btn">
-                  <span>View Properties</span>
-                </a>
-              </div>
-            </div>
-          </div> -->
           <div class="slide active">
             <video class="slide-video" autoplay muted loop playsinline>
               <source
@@ -165,27 +170,6 @@
             </div>
           </div>
 
-          <!-- <div
-            class="slide"
-            style="
-              background-image:
-                linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-                url(./videos/Untitled\ video\ -\ Made\ with\ Clipchamp\ \(online-video-cutter.com\)\ \(1\).mp4);
-            "
-          >
-            <div class="hero-content container">
-              <h1>
-                <span class="font-highlight">Prime Locations</span><br />Premium
-                Lifestyle
-              </h1>
-              <p>Invest in the future with our curated portfolio.</p>
-              <div>
-                <a href="#Contact" class="gradient-btn">
-                  <span>Contact Us </span>
-                </a>
-              </div>
-            </div>
-          </div> -->
           <!-- Slide 3 -->
           <div class="slide">
             <video class="slide-video" autoplay muted loop playsinline>
@@ -210,28 +194,6 @@
               </div>
             </div>
           </div>
-
-          <!-- <div
-            class="slide"
-            style="
-              background-image:
-                linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-                url(&quot;https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop&quot;);
-            "
-          >
-            <div class="hero-content container">
-              <h1>
-                Your <span class="font-highlight">Trusted Partner</span><br />In
-                Real Estate
-              </h1>
-              <p>Building dreams, one home at a time.</p>
-              <div>
-                <a href="#about" class="gradient-btn">
-                  <span>Learn More </span>
-                </a>
-              </div>
-            </div>
-          </div> -->
         </div>
         <div class="slider-controls">
           <button class="prev-slide">&#10094;</button>
@@ -242,27 +204,6 @@
           <span class="dot" data-slide="1"></span>
           <span class="dot" data-slide="2"></span>
         </div>
-
-        <!-- Stats Overlay -->
-        <div class="hero-stats">
-          <div class="stat">
-            <h2>100+</h2>
-            <p>Projects</p>
-          </div>
-
-          <div class="stat">
-            <h2>9+</h2>
-            <p>Working Sectors</p>
-          </div>
-
-          <div class="stat highlight">
-            <h3>EXPERTS SINCE 1996</h3>
-            <p>
-              India’s leading EPC company delivering award-winning
-              infrastructure solutions
-            </p>
-          </div>
-        </div>
       </section>
       <!-- about us -->
 
@@ -270,8 +211,8 @@
         <div class="about-header">
           <span class="about-tag">ABOUT US</span>
           <h2>
-            Welcome to <span>JUSTRELY</span> <br />
-            (The Contracting Company)
+            WELCOME TO <span>JUST RELY</span> <br />
+            (LET'S WALK ON YOUR DREAM)
           </h2>
         </div>
 
@@ -300,52 +241,60 @@
         </div>
       </section>
 
-      <section class="sectors-section">
-        <h1 class="slide-left hidden">What We Do?</h1>
+      <!-- usp -->
 
-        <div class="sectors-wrapper">
-          <div class="sector-item">
-            <span class="icon">🛣️</span>
-            <p>Highways</p>
-          </div>
+      <section class="core-values">
+        <div class="container">
+          <h2 class="section-title slide-left hidden">
+            OUR USP
+            <span></span>
+          </h2>
 
-          <div class="sector-item">
-            <span class="icon">🏢</span>
-            <p>Real Estate</p>
-          </div>
+          <div class="values-row">
+            <div class="value-car">
+              <div class="ico">
+                <img src="./30rp.png" alt="" />
+              </div>
+              <p>30-MINUTE RESPONSE GUARANTEE</p>
+            </div>
 
-          <div class="sector-item">
-            <span class="icon">🏗️</span>
-            <p>Building Works</p>
-          </div>
+            <div class="value-car">
+              <div class="ico">
+                <img src="./icon/inspection.png" alt="" />
+              </div>
+              <p>FREE INSPECTION WITHIN 3 HOURS</p>
+            </div>
 
-          <div class="sector-item">
-            <span class="icon">🚆</span>
-            <p>Metro & Railways</p>
-          </div>
+            <div class="value-car">
+              <div class="ico">
+                <img src="./icon/roof.png" alt="" />
+              </div>
+              <p>ALL-IN-ONE SKILLED TRADES UNDER ONE ROOF</p>
+            </div>
 
-          <div class="sector-item">
-            <span class="icon">🏠</span>
-            <p>Charitable</p>
-          </div>
-
-          <div class="sector-item">
-            <span class="icon">🏨</span>
-            <p>Hotels</p>
-          </div>
-
-          <div class="sector-item">
-            <span class="icon">🏥</span>
-            <p>Health Care</p>
-          </div>
-
-          <div class="sector-item">
-            <span class="icon">🏬</span>
-            <p>Mall</p>
+            <div class="value-car">
+              <div class="ico">
+                <img src="./icon/certified.png" alt="" />
+              </div>
+              <p>
+                CERTIFIED, BACKGROUND-CHECKED TECHNICIANS WITH INSURANCE
+                COVERAGE
+              </p>
+            </div>
+            <div class="value-car">
+              <div class="ico">
+                <img src="./icon/fourty.png" alt="" />
+              </div>
+              <p>
+                SAVE UP TO 40% ON MAJOR AND MINOR SERVICES – SPECIAL OFFERS
+                AVAILABLE
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
+      
       <section class="cube">
         <section class="mv-section">
           <div class="mv-container">
@@ -353,7 +302,7 @@
             <div class="mv-card">
               <div class="mv-header">
                 <span class="mv-icon">◆</span>
-                <h3 class="float">Our Mission</h3>
+                <h3 class="float">OUR MISSION</h3>
               </div>
               <p>
                 To provide reliable, high-quality real estate and technical
@@ -367,7 +316,7 @@
             <div class="mv-card">
               <div class="mv-header">
                 <span class="mv-icon">👁</span>
-                <h3 class="float">Our Vision</h3>
+                <h3 class="float">OUR VISION</h3>
               </div>
               <p>
                 To be Dubai’s most trusted partner for real estate and technical
@@ -378,6 +327,311 @@
           </div>
         </section>
       </section>
+
+      <!-- founder team -->
+
+      <section class="founders">
+        <h2 class="section-title slide-left hidden">
+          WHO WE ARE?
+          <span></span>
+        </h2>
+
+        <div class="card-wrapper">
+          <!-- Card 1 -->
+          <div class="founder-card">
+            <div class="avatar">
+              <img src="https://i.pravatar.cc/200?img=12" alt="Hamid Jamal" />
+            </div>
+            <h3>Hamid Jamal</h3>
+            <p>
+              Our Director, focused on company ecosystems and product-led
+              growth.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="founder-card">
+            <div class="avatar">
+              <img src="https://i.pravatar.cc/200?img=12" alt="Shadab Jamal" />
+            </div>
+            <h3>Shadab Jamal</h3>
+            <p>
+              Our Managing Director, Delivery lead with experience coordinating
+              cross-channel campaigns.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="founder-card">
+            <div class="avatar">
+              <img src="https://i.pravatar.cc/200?img=56" alt="Hamid" />
+            </div>
+            <h3>Hamid</h3>
+            <p>Our Project Head, Builds creative concepts that convert.</p>
+          </div>
+        </div>
+      </section>
+      <section class="sectors-section">
+        <!-- <h2 class="slide-left hidden">What We Do?</h2> -->
+        <h2 class="section-title slide-left hidden">
+          WHAT WE DO?
+          <span></span>
+        </h2>
+        <div class="sectors-wrapper">
+          <div class="sector-item">
+            <span class="icon"
+              ><img
+                src="./icon/civil-engineering.png"
+                style="height: 150px; width: 150px"
+                alt=""
+            /></span>
+            <!-- 🛣️ -->
+            <p>Civil Contracting Works</p>
+          </div>
+
+          <div class="sector-item">
+            <span class="icon"
+              ><img
+                src="./icon/mep.png"
+                style="height: 150px; width: 150px"
+                alt=""
+            /></span>
+            <!-- 🏢 ⚙️-->
+            <p>MEP Contracting</p>
+          </div>
+
+          <div class="sector-item">
+            <span class="icon"
+              ><img
+                src="./icon/ss.png"
+                style="height: 150px; width: 150px"
+                alt=""
+            /></span>
+            <!-- 🏗️ -->
+            <p>Ss And Fabrication</p>
+          </div>
+
+          <div class="sector-item">
+            <span class="icon"
+              ><img
+                src="./icon/renova.png"
+                style="height: 150px; width: 150px"
+                alt=""
+            /></span>
+            <!-- 🚆 -->
+            <p>Interior Fit-Out Contracting</p>
+          </div>
+
+          <div class="sector-item">
+            <span class="icon"
+              ><img
+                src="./icon/main.png"
+                style="height: 150px; width: 150px"
+                alt=""
+            /></span>
+            <!-- 🏠 -->
+            <p>Renovation & Maintenance Works</p>
+          </div>
+
+          <div class="sector-item">
+            <span class="icon"
+              ><img
+                src="./icon/fire.png"
+                style="height: 150px; width: 150px"
+                alt=""
+            /></span>
+            <!-- 🏨 -->
+            <p>Fire & Safety Contracting</p>
+          </div>
+
+          <div class="sector-item">
+            <span class="icon"
+              ><img
+                src="./icon/infrastructure.png"
+                style="height: 150px; width: 150px"
+                alt=""
+            /></span>
+            <p>Infrastructure & External Works</p>
+          </div>
+
+          <div class="sector-item">
+            <span class="icon"
+              ><img
+                src="./icon/fact.png"
+                style="height: 150px; width: 150px"
+                alt=""
+            /></span>
+            <!-- 🏬 -->
+            <p>Industrial Contracting</p>
+          </div>
+        </div>
+      </section>
+      <section class="stack-section">
+        <div class="stack-card">
+          <div class="stack-img">
+            <img src="./img/civil.jpg" alt="" />
+          </div>
+          <div class="stack-content">
+            <h2>Civil Contracting</h2>
+            <h4>Core Construction Services</h4>
+            <ul>
+              <li>Building construction (residential & commercial)</li>
+              <li>Villas, warehouses, labor camps</li>
+              <li>Foundations & structural works</li>
+              <li>Concrete & RCC works</li>
+              <li>Block work & plastering</li>
+              <li>Road works & paving</li>
+              <li>Excavation & earthworks</li>
+              <li>Waterproofing</li>
+              <li>Roofing works</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="stack-card stack-reverse">
+          <div class="stack-img">
+            <img src="./img/mep.webp" alt="" />
+          </div>
+          <div class="stack-content">
+            <h2>MEP Contracting</h2>
+            <div class="service-grid-wrapper">
+              <div class="service-column">
+                <h4>Electrical Works</h4>
+                <ul>
+                  <li>Power & lighting installation</li>
+                  <li>Cable laying & containment</li>
+                  <li>MDB / SMDB / DB panels</li>
+                  <li>Generator & UPS installation</li>
+                  <li>Earthing & lightning protection</li>
+                  <li>Low voltage systems</li>
+                </ul>
+              </div>
+              <div class="service-column">
+                <h4>HVAC (Air Conditioning)</h4>
+                <ul>
+                  <li>Chilled water systems</li>
+                  <li>DX units / Package units</li>
+                  <li>Ducting & insulation</li>
+                  <li>Ventilation & exhaust</li>
+                  <li>AHU / FCU installation</li>
+                </ul>
+              </div>
+              <div class="service-column">
+                <h4>Plumbing & Drainage</h4>
+                <ul>
+                  <li>Water supply systems</li>
+                  <li>Drainage & sewage</li>
+                  <li>PPR / GI / HDPE piping</li>
+                  <li>Pump installation</li>
+                  <li>Water heaters & tanks</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="stack-card">
+          <div class="stack-img">
+            <img src="./img/interor.jpg" alt="" />
+          </div>
+          <div class="stack-content">
+            <h2>Interior Fit-Out</h2>
+            <h4>Commercial Interiors</h4>
+            <ul>
+              <li>Gypsum Partitions</li>
+              <li>Flooring</li>
+              <li>Glass Works</li>
+              <li>Finishing</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="stack-card stack-reverse">
+          <div class="stack-img">
+            <img src="./img/renovs.webp" alt="" />
+          </div>
+          <div class="stack-content">
+            <h2>Renovation & Maintenance Works</h2>
+            <h4>Commercial Interiors</h4>
+            <ul>
+              <li>Building refurbishment</li>
+              <li>Office renovation</li>
+              <li>Structural modification</li>
+              <li>Villa remodeling</li>
+              <li>Annual Maintenance Contracts (AMC)</li>
+              <li>Civil & MEP maintenance</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="stack-card">
+          <div class="stack-img">
+            <img src="./img/fire.png" alt="" />
+          </div>
+          <div class="stack-content">
+            <h2>Fire & Safety Contracting</h2>
+            <ul>
+              <li>Fire alarm systems</li>
+              <li>Fire fighting systems</li>
+              <li>Sprinkler systems</li>
+              <li>Emergency lighting</li>
+              <li>Fire pumps</li>
+              <li>Civil Defense approvals</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="stack-card stack-reverse">
+          <div class="stack-img">
+            <img src="./img/fire.png" alt="" />
+          </div>
+          <div class="stack-content">
+            <h2>ELV & Low Current Systems</h2>
+            <ul>
+              <li>CCTV surveillance systems</li>
+              <li>Access control systems</li>
+              <li>Time attendance / biometric</li>
+              <li>Intercom systems</li>
+              <li>SMATV / IPTV</li>
+              <li>Structured cabling</li>
+              <li>Public Address systems</li>
+            </ul>
+          </div>
+        </div>
+        <div class="stack-card">
+          <div class="stack-img">
+            <img src="./img/external.jpg" alt="" />
+          </div>
+          <div class="stack-content">
+            <h2>Infrastructure & External Works</h2>
+            <ul>
+              <li>Drainage networks</li>
+              <li>Water pipelines</li>
+              <li>Street lighting</li>
+              <li>Landscaping</li>
+              <li>Boundary walls</li>
+              <li>Parking & interlock works</li>
+            </ul>
+          </div>
+        </div>
+<div class="stack-card stack-reverse">
+          <div class="stack-img">
+            <img src="./img/indus.jpg" alt="" />
+          </div>
+          <div class="stack-content">
+            <h2>Industrial Contracting</h2>
+            <ul>
+              <li>Factory setup
+</li>
+              <li>Steel structures</li>
+              <li>Mezzanine floors</li>
+              <li>Machinery foundations</li>
+              <li>Industrial electrical works</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+</section>
 
       <section class="strengths-section">
         <div class="strengths-container">
@@ -417,60 +671,52 @@
         </div>
       </section>
 
-      <section id="projects" class="projects-section">
-        <div class="container">
-          <!-- <div class="section-header">
-            <h2>Featured Projects</h2>
-            <p>Delivering landmark infrastructure across India</p>
-          </div> -->
-         <div class="section-header js-animate">
-  <h2 class="from-left">Featured Projects</h2>
-  <p class="from-right">Delivering landmark infrastructure across India</p>
-</div>
-
-
-
-          <div class="project-grid">
-            <article class="project-card card-1">
-              <div class="project-info">
-                <h3>Shadipur Colony</h3>
+      <section id="projects" class="fp-projects-section">
+        <div class="fp-container">
+          <div class="section-header js-animate">
+            <h2 class="from-left" style="font-size: 36px">OUR PROJECTS</h2>
+            <p class="from-right">
+              Delivering landmark infrastructure across India
+            </p>
+          </div>
+          <div class="fp-projects-wrap">
+            <article class="fp-project-card fp-card-1">
+              <div class="fp-project-info">
+                <h3>Apartments</h3>
               </div>
             </article>
 
-            <article class="project-card card-2">
-              <div class="project-info">
-                <h3>Salempur–Balia Highways</h3>
+            <article class="fp-project-card fp-card-2">
+              <div class="fp-project-info">
+                <h3>Highways</h3>
               </div>
             </article>
 
-            <article class="project-card card-3">
-              <div class="project-info">
-                <h3>Barnala, Punjab</h3>
+            <article class="fp-project-card fp-card-3">
+              <div class="fp-project-info">
+                <h3>Flats</h3>
               </div>
             </article>
 
-            <article class="project-card card-4">
-              <div class="project-info">
-                <h3>Guru Gobind Singh Refinery</h3>
+            <article class="fp-project-card fp-card-4">
+              <div class="fp-project-info">
+                <h3>Refinery</h3>
               </div>
             </article>
 
-            <article class="project-card card-5">
-              <div class="project-info">
+            <article class="fp-project-card fp-card-5">
+              <div class="fp-project-info">
                 <h3>Hotel Project</h3>
               </div>
             </article>
 
-            <article class="project-card card-6">
-              <div class="project-info">
-                <h3>Hotel Project</h3>
+            <article class="fp-project-card fp-card-6">
+              <div class="fp-project-info">
+                <h3>Villa</h3>
               </div>
             </article>
           </div>
 
-          <!-- <div class="projects-cta">
-      <a href="#" class="btn secondary-btn">View All Projects</a>
-    </div> -->
           <div class="projects-cta">
             <a href="#projects" class="tag-box">
               <span class="tag">VIEW ALL PROJECTS &rarr;</span>
@@ -481,110 +727,7 @@
 
       <!-- yrs  -->
 
-      <!-- <section class="stats-section">
-  <div class="stats-overlay"></div>
-
-  <div class="stats-container">
-    <div class="stat-item">
-      <h2><span class="counter" data-target="29">10</span>+</h2>
-      <p>Years of Experience</p>
-    </div>
-
-    <div class="stat-item">
-      <h2><span class="counter" data-target="100">10</span>+</h2>
-      <p>Projects Delivered</p>
-    </div>
-
-    <div class="stat-item">
-      <h2><span class="counter" data-target="13">10</span>+</h2>
-      <p>Sectors</p>
-    </div>
-
-    <div class="stat-item">
-      <h2><span class="counter" data-target="10">9</span>+</h2>
-      <p>States</p>
-    </div>
-
-    <div class="stat-item">
-      <h2><span class="counter" data-target="50">15</span>+</h2>
-      <p>Cities</p>
-    </div>
-
-    <div class="stat-item">
-      <h2><span class="counter" data-target="100">100</span>%</h2>
-      <p>Growth</p>
-    </div>
-  </div>
-</section> -->
-
       <section class="impact-section">
-        <!-- ===== INLINE CSS ===== -->
-        <style>
-          .impact-section {
-            position: relative;
-            padding: 5rem 1rem;
-            color: #ffffff;
-            background: url("https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2071&auto=format&fit=crop")
-              center / cover no-repeat;
-            overflow: hidden;
-          }
-
-          /* Dark overlay */
-          .impact-section::before {
-            content: "";
-            position: absolute;
-            inset: 0;
-            background: rgba(15, 25, 40, 0.85);
-            z-index: 0;
-          }
-
-          .impact-container {
-            position: relative;
-            z-index: 1;
-            max-width: 1200px;
-            margin: auto;
-            display: grid;
-            grid-auto-flow: column;
-
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 3rem;
-            text-align: center;
-            justify-content: center;
-          }
-
-          /* .impact-container {
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: minmax(200px, 1fr);
-  gap: 3rem;
-  overflow-x: auto;
-  scrollbar-width: none;       
-}
-
-.impact-container::-webkit-scrollbar {
-  display: none;               Chrome / Safari
-} */
-
-          .impact-item h2 {
-            font-size: 3rem;
-            margin-bottom: 0.5rem;
-            font-weight: 700;
-          }
-
-          .impact-item p {
-            font-size: 1rem;
-            opacity: 0.85;
-            letter-spacing: 0.5px;
-          }
-
-          @media (max-width: 600px) {
-            .impact-item h2 {
-              font-size: 2.2rem;
-            }
-          }
-        </style>
-
-        <!-- ===== HTML ===== -->
         <div class="impact-container">
           <div class="impact-item">
             <h2><span class="impact-counter" data-target="29">10</span>+</h2>
@@ -616,103 +759,15 @@
             <p>Growth</p>
           </div>
         </div>
-
-        <!-- ===== INLINE JS ===== -->
-        <script>
-          document.addEventListener("DOMContentLoaded", function () {
-            const counters = document.querySelectorAll(".impact-counter");
-            let hasRun = false;
-
-            function runCounters() {
-              counters.forEach((counter) => {
-                const target = Number(counter.dataset.target);
-                let current = 0;
-                const step = Math.max(1, Math.floor(target / 120));
-
-                function update() {
-                  current += step;
-                  if (current < target) {
-                    counter.textContent = current;
-                    requestAnimationFrame(update);
-                  } else {
-                    counter.textContent = target;
-                  }
-                }
-
-                update();
-              });
-            }
-
-            const observer = new IntersectionObserver(
-              (entries) => {
-                if (entries[0].isIntersecting && !hasRun) {
-                  hasRun = true;
-                  runCounters();
-                }
-              },
-              { threshold: 0.35 },
-            );
-
-            observer.observe(document.querySelector(".impact-section"));
-          });
-        </script>
       </section>
 
-      <!-- founder team -->
-
-      <section class="founders">
-        <h2 class="section-title">
-          Meet Our Team
-          <span></span>
-        </h2>
-
-        <div class="card-wrapper">
-          <!-- Card 1 -->
-          <div class="founder-card">
-            <div class="avatar">
-              <img src="https://i.pravatar.cc/200?img=12" alt="Hamid Jamal" />
-            </div>
-            <h3>Hamid Jamal</h3>
-            <p>
-              Our Director, focused on company ecosystems and product-led
-              growth.
-            </p>
-          </div>
-
-          <!-- Card 2 -->
-          <div class="founder-card">
-            <div class="avatar">
-              <img src="https://i.pravatar.cc/200?img=12" alt="Shadab Jamal" />
-            </div>
-            <h3>Shadab Jamal</h3>
-            <p>
-              Our Managing Director, Delivery lead with experience coordinating
-              cross-channel campaigns.
-            </p>
-          </div>
-
-          <!-- Card 3 -->
-          <div class="founder-card">
-            <div class="avatar">
-              <img src="https://i.pravatar.cc/200?img=56" alt="Hamid" />
-            </div>
-            <h3>Hamid</h3>
-            <p>Our Project Head, Builds creative concepts that convert.</p>
-          </div>
-        </div>
-      </section>
+      
 
       <!-- testimonial -->
 
       <section class="review-section">
-        <!-- ===== Swiper CSS ===== -->
-       
-
         <!-- ===== BACKGROUND IMAGE ===== -->
-        <div
-          class="review-bg"
-          style="background-image: url(./img/13908-1.jpg)"
-        ></div>
+        <div class="review-bg"></div>
 
         <!-- ===== GRADIENT OVERLAY ===== -->
         <div class="review-overlay"></div>
@@ -725,7 +780,10 @@
         <div class="review-wrapper">
           <!-- HEADING -->
           <div class="review-heading">
-            <h2>What Our Client Says</h2>
+            <h2 class="section-title">
+              WHAT OUR CLIENT SAYS
+              <span></span>
+            </h2>
           </div>
 
           <!-- SLIDER -->
@@ -737,49 +795,54 @@
             <div class="swiper review-swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  
                   <div class="review-card">
-                    <i class="fa-solid fa-quote-left"></i>
+                    <i class="fa-solid fa-quote-left card-quote"></i>
 
                     <p>
-                      JUSTRELY Constructions has consistently exceeded our
+                      JUST RELY Constructions has consistently exceeded our
                       expectations with their impeccable project management
                       skills. Their timely delivery of massive projects, coupled
                       with their exceptional O&M services, has been instrumental
                       in our success.
                     </p>
-                    <h4>NHAI</h4>
-                    <span>India</span>
+                    <div class="client-info">
+                      <h4>CLIENT</h4>
+                      <!-- <span>India</span> -->
+                    </div>
                   </div>
                 </div>
 
                 <div class="swiper-slide">
                   <div class="review-card">
-                    <i class="fa-solid fa-quote-left"></i>
+                    <i class="fa-solid fa-quote-left card-quote"></i>
 
                     <p>
                       Their commitment to fair labour payments speaks volumes
                       about their integrity. With up-to-date technical
-                      capabilities and unmatched workmanship, JUSTRELY
+                      capabilities and unmatched workmanship, JUST RELY
                       consistently delivers top-notch quality output, making
                       them our trusted choice for construction needs.
                     </p>
-                    <h4>CLIENT</h4>
+                    <div class="client-info">
+                      <h4>CLIENT</h4>
+                    </div>
                   </div>
                 </div>
 
                 <div class="swiper-slide">
                   <div class="review-card">
-                    <i class="fa-solid fa-quote-left"></i>
+                    <i class="fa-solid fa-quote-left card-quote"></i>
 
                     <p>
-                      JUSTRELY Constructions delivered exceptional quality work on
-                      our project. Their attention to detail, skilled
+                      JUST RELY Constructions delivered exceptional quality work
+                      on our project. Their attention to detail, skilled
                       craftsmanship, and commitment to timelines were truly
                       impressive. From start to finish, their team exhibited
                       professionalism and expertise.
                     </p>
-                    <h4>CLIENT</h4>
+                    <div class="client-info">
+                      <h4>CLIENT</h4>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -789,456 +852,278 @@
             </div>
           </div>
         </div>
-
-        <!-- ===== CSS ===== -->
-        <style>
-          .review-section {
-            position: relative;
-            padding: 1rem 1rem;
-            overflow: hidden;
-            color: #fff;
-          }
-
-          .review-bg {
-            position: absolute;
-            inset: 0;
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            z-index: 0;
-          }
-
-          .review-overlay {
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(
-              135deg,
-              rgba(20, 30, 48, 0.9),
-              rgba(36, 59, 85, 0.8),
-              rgba(20, 30, 48, 0.9)
-            );
-            backdrop-filter: blur(6px);
-            z-index: 1;
-          }
-
-          .review-blob {
-            position: absolute;
-            width: 24rem;
-            height: 24rem;
-            background: rgba(99, 102, 241, 0.15);
-            border-radius: 50%;
-            filter: blur(120px);
-            z-index: 1;
-          }
-
-          .review-blob-left {
-            top: 0;
-            left: 0;
-            transform: translate(-40%, -40%);
-          }
-
-          .review-blob-right {
-            bottom: 0;
-            right: 0;
-            transform: translate(40%, 40%);
-            background: rgba(59, 130, 246, 0.15);
-          }
-
-          .review-wrapper {
-            position: relative;
-            z-index: 2;
-            max-width: 1100px;
-            margin: auto;
-            padding: 0 1rem;
-          }
-
-          .review-heading {
-            text-align: center;
-            margin-bottom: 3rem;
-          }
-
-          .review-heading h2 {
-            font-size: clamp(2.5rem, 5vw, 2rem);
-            font-weight: 500;
-          }
-
-          .review-slider-box {
-            position: relative;
-            max-width: 800px;
-            margin: auto;
-          }
-
-          .review-quote-icon {
-            position: absolute;
-            top: 0;
-            left: 0;
-            font-size: 5rem;
-            opacity: 0.15;
-            color: #818cf8;
-            z-index: 0;
-          }
-
-          .review-card {
-            background: rgba(255, 255, 255, 0.08);
-            border-radius: 16px;
-            padding: 2.5rem;
-            backdrop-filter: blur(10px);
-            text-align: center;
-          }
-
-          .review-card p {
-            font-size: 1.05rem;
-            line-height: 1.7;
-            margin-bottom: 1.5rem;
-          }
-
-          .review-card h4 {
-            font-size: 1.2rem;
-            font-weight: 700;
-          }
-
-          .review-card span {
-            font-size: 0.9rem;
-            opacity: 0.8;
-          }
-
-          .review-pagination .swiper-pagination-bullet {
-            background: #818cf8;
-            opacity: 0.4;
-          }
-
-          .review-pagination .swiper-pagination-bullet-active {
-            opacity: 1;
-          }
-        </style>
-
-        <!-- ===== JS ===== -->
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-        <script>
-          new Swiper(".review-swiper", {
-            loop: true,
-            autoplay: {
-              delay: 6000,
-              disableOnInteraction: false,
-            },
-            pagination: {
-              el: ".review-pagination",
-              clickable: true,
-            },
-            spaceBetween: 40,
-          });
-        </script>
       </section>
-
-
-
 
       <!-- join us -->
-       <section class="career-section">
-  <div class="career-container">
-
-    <!-- LEFT IMAGE AREA -->
-    <div class="career-image-wrap">
-      <div class="career-image-frame">
-        <img src="./img/13908-1.jpg" alt="JUSTRELY Group Team">
-      </div>
-    </div>
-
-    <!-- RIGHT CONTENT AREA -->
-    <div class="career-content">
-      <h2>Join the<br><span style="color: #CA9817;">JUSTRELY</span> Group Family</h2>
-
-      <p>
-        At JUSTRELY Group, we believe our people are our greatest asset. As one of
-        India's leading infrastructure firms, we offer unparalleled
-        opportunities to work on transformative projects that shape the
-        nation's future. Whether you're an experienced professional or just
-        beginning your career, JUSTRELY provides a dynamic environment to grow,
-        innovate, and make a meaningful impact.
-      </p>
-
-      <!-- <div class="career-accordion">
-        <div class="accordion-item">+&nbsp; Why Work with Us?</div>
-        <div class="accordion-item">+&nbsp; Opportunities for Growth</div>
-        <div class="accordion-item">+&nbsp; Inclusive Culture</div>
-      </div> -->
-      <div class="career-accordion">
-
-  <div class="accordion-item">
-    <button class="accordion-header">
-      <span>Why Work with Us?</span>
-      <span class="accordion-icon">+</span>
-    </button>
-    <div class="accordion-content">
-      <p>
-        We offer a collaborative environment, competitive benefits, and the
-        opportunity to work on landmark infrastructure projects that impact
-        millions of lives.
-      </p>
-    </div>
-  </div>
-
-  <div class="accordion-item">
-    <button class="accordion-header">
-      <span>Opportunities for Growth</span>
-      <span class="accordion-icon">+</span>
-    </button>
-    <div class="accordion-content">
-      <p>
-        At JUSTRELY Group, continuous learning is encouraged through training,
-        mentorship, and career advancement opportunities across departments.
-      </p>
-    </div>
-  </div>
-
-  <div class="accordion-item">
-    <button class="accordion-header">
-      <span>Inclusive Culture</span>
-      <span class="accordion-icon">+</span>
-    </button>
-    <div class="accordion-content">
-      <p>
-        We foster an inclusive workplace where diversity, respect, and teamwork
-        are at the core of everything we do.
-      </p>
-    </div>
-  </div>
-
-</div>
-
-
-      <!-- <a href="#" class="career-btn">Apply Now</a> -->
-      <div class="projects-cta">
-  <a href="#projects" class="ta-bo">
-    <span class="ta">Join Us &rarr;</span>
-  </a>
-</div>
-
-    </div>
-
-  </div>
-</section>
-
-<footer class="site-footer">
-  <div class="footer-container">
-
-    <!-- BRAND COLUMN -->
-    <div class="footer-brand">
-      <img src="./just_rely_logo-removebg-preview.png" alt="JUSTRELY Logo" class="footer-logo">
-      <p class="footer-tagline">JUSTRELY CONTRACTING COMPANY</p>
-
-      <!-- <a href="#" class="social-btn linkedin">
-        Connect to LinkedIn <span>→</span>
-      </a>
-
-      <a href="#" class="social-btn instagram">
-        Connect to Instagram <span>→</span>
-      </a> -->
-      <a href="#" class="social-btn linkedin">
-  <i class="fa-brands fa-linkedin-in"></i>
-  <span class="social-text">Connect to LinkedIn</span>
-  <span class="arrow">→</span>
-</a>
-
-<a href="#" class="social-btn instagram">
-  <i class="fa-brands fa-instagram"></i>
-  <span class="social-text">Connect to Instagram</span>
-  <span class="arrow">→</span>
-</a>
-
-    </div>
-
-    <!-- MAIN LINKS -->
-    <div class="footer-column">
-      <h4>MAIN LINKS</h4>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Completed Projects</a></li>
-        <li><a href="#">Ongoing Projects</a></li>
-        <li><a href="#">Career</a></li>
-        <li><a href="#">JUSTRELY Insights</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-    </div>
-
-    <!-- ABOUT US -->
-    <div class="footer-column">
-      <h4>ABOUT US</h4>
-      <ul>
-        <li><a href="#">Company Overview</a></li>
-        <li><a href="#">Our Group of Companies</a></li>
-        <li><a href="#">Meet the Management</a></li>
-        <li><a href="#">QHSE Policy</a></li>
-        <li><a href="#">ISO Certifications</a></li>
-        <li><a href="#">Awards</a></li>
-      </ul>
-    </div>
-
-    <!-- OUR DIVISIONS -->
-    <!-- <div class="footer-column">
-      <h4>OUR DIVISIONS</h4>
-      <ul>
-        <li><a href="#">Engineering Services</a></li>
-        <li><a href="#">Post-Tension Contracting</a></li>
-        <li><a href="#">Renovation & Maintenance</a></li>
-        <li><a href="#">Fit-Out & Joinery</a></li>
-        <li><a href="#">Steel Structure</a></li>
-      </ul>
-    </div> -->
-
-    <!-- CONTACT -->
-    <div class="footer-column footer-contact">
-      <h4>CONTACT US</h4>
-      <p>📍 New Delhi<br>New Delhi – India</p>
-      <p>📞 +922 4 285 7324</p>
-      <p>✉ info@justrelyservices.com</p>
-      <p>✉ info@justrelyproperties.com</p>
-    </div>
-
-  </div>
-
-  <!-- BOTTOM BAR -->
-  <div class="footer-bottom">
-    <p>© JTS TECHNOLOGIES. ALL RIGHTS RESERVED.</p>
-    <div class="footer-links">
-      <a href="#">Terms & Conditions</a>
-      <span>|</span>
-      <a href="#">Privacy Policy</a>
-    </div>
-  </div>
-</footer>
-
-
-      <!-- <div class="tag-box">
-        <div class="tag">INTRUDUCING &wedbar;</div>
-      </div> -->
-
-      <!-- <section id="introduction" class="intro-section container">
-        <div class="intro-content">
-          <h2 class="font-highlight">Introduction</h2>
-          <p>
-            Just Rely is a Dubai-based company specializing in real estate and
-            technical services. We offer expert property solutions alongside
-            comprehensive maintenance services, including electrical, plumbing,
-            carpentry, painting, and renovations.
-          </p>
-          <p>
-            With a commitment to quality, reliability, and customer
-            satisfaction, Just Rely is your trusted partner for building,
-            maintaining, and investing in Dubai’s dynamic market.
-          </p>
-        </div>
-      </section> -->
-
-      <!-- <section id="usp" class="usp-section container">
-        <h2 class="font-highlight">Our USP</h2>
-        <div class="usp-grid">
-          <div class="usp-item">
-            <div class="usp-icon">⏱️</div>
-            <h3>30-Minute Response Guarantee</h3>
+      <section class="career-section">
+        <div class="career-container">
+          <!-- LEFT IMAGE AREA -->
+          <div class="career-image-wrap">
+            <div class="career-image-frame">
+              <img src="./img/13908-1.jpg" alt="JUSTRELY Group Team" />
+            </div>
           </div>
-          <div class="usp-item">
-            <div class="usp-icon">🔍</div>
-            <h3>Free Inspection Within 3 Hours</h3>
-          </div>
-          <div class="usp-item">
-            <div class="usp-icon">🛠️</div>
-            <h3>All-in-One Skilled Trades Under One Roof</h3>
-          </div>
-          <div class="usp-item">
-            <div class="usp-icon">🛡️</div>
-            <h3>
-              Certified, Background-Checked Technicians with Insurance Coverage
-            </h3>
-          </div>
-          <div class="usp-item">
-            <div class="usp-icon">💰</div>
-            <h3>
-              Save Up To 40% On Major and Minor Services – Special Offers
-              Available
-            </h3>
+
+          <!-- RIGHT CONTENT AREA -->
+          <div class="career-content">
+            <h2>
+              JOIN THE<br /><span style="color: #ca9817">JUST RELY</span> GROUP
+              FAMILY
+            </h2>
+
+            <p>
+              At JUST RELY Group, we believe our people are our greatest asset.
+              As one of India's leading infrastructure firms, we offer
+              unparalleled opportunities to work on transformative projects that
+              shape the nation's future. Whether you're an experienced
+              professional or just beginning your career, JUST RELY provides a
+              dynamic environment to grow, innovate, and make a meaningful
+              impact.
+            </p>
+
+            <div class="career-accordion">
+              <div class="accordion-item">
+                <button class="accordion-header">
+                  <span>Why Work with Us?</span>
+                  <span class="accordion-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    We offer a collaborative environment, competitive benefits,
+                    and the opportunity to work on landmark infrastructure
+                    projects that impact millions of lives.
+                  </p>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <button class="accordion-header">
+                  <span>Opportunities for Growth</span>
+                  <span class="accordion-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    At JUST RELY Group, continuous learning is encouraged
+                    through training, mentorship, and career advancement
+                    opportunities across departments.
+                  </p>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <button class="accordion-header">
+                  <span>Inclusive Culture</span>
+                  <span class="accordion-icon">+</span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    We foster an inclusive workplace where diversity, respect,
+                    and teamwork are at the core of everything we do.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- <a href="#" class="career-btn">Apply Now</a> -->
+            <div class="projects-cta">
+              <a href="#projects" class="ta-bo">
+                <span class="ta">Join Us &rarr;</span>
+              </a>
+            </div>
           </div>
         </div>
-      </section> -->
+      </section>
 
-      <!-- <section id="vision-mission" class="vision-mission-section">
+      <section class="contact-info-section">
         <div class="container">
-          <div class="vm-grid">
-            <div class="vm-card">
-              <h2 class="font-highlight">Our Vision</h2>
-              <p>
-                To be Dubai’s most trusted partner for real estate and technical
-                services, delivering excellence, innovation, and lasting value
-                in every property we build, sell, maintain, and manage.
-              </p>
+          <div class="contact-header">
+            <h2 class="section-title float">
+              Get In Touch
+              <span></span>
+            </h2>
+            <p>We'd love to hear from you — reach out through any channel</p>
+          </div>
+
+          <div class="contact-grid">
+            <!-- Phone -->
+            <a href="tel:+919224857324" class="contact-item">
+              <div class="icon-box">
+                <i class="fa-solid fa-phone-volume"></i>
+              </div>
+              <h4>PHONE</h4>
+              <p>+91 9224857324</p>
+            </a>
+
+            <!-- WhatsApp -->
+            <a
+              href="https://wa.me/919224857324"
+              class="contact-item"
+              target="_blank"
+            >
+              <div class="icon-box">
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+              <h4>WHATSAPP</h4>
+              <p>+91 9224857324</p>
+            </a>
+
+            <!-- Address -->
+            <div class="contact-item">
+              <div class="icon-box">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <h4>ADDRESS</h4>
+              <p>New Delhi, India</p>
             </div>
-            <div class="vm-card">
-              <h2 class="font-highlight">Our Mission</h2>
-              <p>
-                To provide reliable, high-quality real estate and technical
-                solutions that exceed client expectations—through skilled
-                expertise, transparent service, and a commitment to enhancing
-                every space we touch.
-              </p>
-            </div>
+
+            <!-- Email -->
+            <a href="mailto:info@justrelyservices.com" class="contact-item">
+              <div class="icon-box">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <h4>EMAIL</h4>
+              <p>info@justrelyservices.com</p>
+            </a>
           </div>
         </div>
       </section>
 
-      <section id="brand-identity" class="brand-identity-section container">
-        <div class="brand-content">
-          <h2 class="font-highlight">Our Brand Identity</h2>
-          <p>
-            Our brand identity represents the core values and personality of our
-            company. It serves as the foundation for how we present ourselves to
-            the world and communicate our unique offerings.
-          </p>
+      <!-- <iframe 
+        src="https://www.google.com/maps?q=Trident+Embassy+Greater+Noida&output=embed"
+        width="100%" 
+        height="100%" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy">
+      </iframe> -->
+      <section class="contact-section">
+        <div class="con">
+          <!-- Left: Map -->
+          <div class="map-area">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d150088.1380025772!2d77.12337926701726!3d28.56582907603154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1770869749850!5m2!1sen!2sin"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <!-- Right: Contact Form -->
+          <div class="form-area">
+            <form>
+              <div class="row">
+                <div class="form-group">
+                  <label>First Name</label>
+                  <input type="text" placeholder="First Name" />
+                </div>
+                <div class="form-group">
+                  <label>Last Name</label>
+                  <input type="text" placeholder="Last Name" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label>Email <span>*</span></label>
+                <input type="email" placeholder="Email Address" required />
+              </div>
+
+              <div class="form-group">
+                <label>Subject</label>
+                <input type="text" placeholder="Subject" />
+              </div>
+
+              <div class="form-group">
+                <label>Your Message <span>*</span></label>
+                <textarea
+                  rows="5"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="submit-btn">Submit Form</button>
+            </form>
+          </div>
         </div>
       </section>
 
-      <section id="stats" class="stats-section container">
-        <div class="stat-item">
-          <h3>$250M+</h3>
-          <p>Annual Turnover</p>
-        </div>
-        <div class="stat-item">
-          <h3>100+</h3>
-          <p>Projects</p>
-        </div>
-        <div class="stat-item">
-          <h3>13+</h3>
-          <p>Working Sectors</p>
-        </div>
-        <div class="stat-item">
-          <h3>SINCE 1996</h3>
-          <p>Experts</p>
-        </div>
-      </section>
+      <footer class="site-footer">
+        <div class="footer-container">
+          <!-- BRAND COLUMN -->
+          <div class="footer-brand">
+            <img
+              src="./just_rely_logo-removebg-preview.png"
+              alt="JUSTRELY Logo"
+              class="footer-logo"
+            />
 
-      <section id="about" class="about-section container">
-        <div class="content-wrapper">
-          <h2>Experts Since 1996</h2>
-          <p>
-            India’s leading EPC company delivering award-winning infrastructure
-            solutions. With over 27 years of experience in the civil sector, we
-            have earned a reputation as one of India’s most experienced
-            contractors.
-          </p>
-          <a href="#" class="btn secondary-btn">Read More</a>
+            <a href="#" class="social-btn linkedin">
+              <i class="fa-brands fa-linkedin-in"></i>
+              <span class="social-text">Connect to LinkedIn</span>
+              <span class="arrow">→</span>
+            </a>
+
+            <a href="#" class="social-btn instagram">
+              <i class="fa-brands fa-instagram"></i>
+              <span class="social-text">Connect to Instagram</span>
+              <span class="arrow">→</span>
+            </a>
+          </div>
+
+          <!-- MAIN LINKS -->
+          <div class="footer-column">
+            <h4>MAIN LINKS</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Completed Projects</a></li>
+              <li><a href="#">Ongoing Projects</a></li>
+              <li><a href="#">Career</a></li>
+              <li><a href="#">JUST RELY Insights</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <!-- ABOUT US -->
+          <div class="footer-column">
+            <h4>ABOUT US</h4>
+            <ul>
+              <li><a href="#">Company Overview</a></li>
+              <li><a href="#">Our Group of Companies</a></li>
+              <li><a href="#">Meet the Management</a></li>
+              <li><a href="#">QHSE Policy</a></li>
+              <li><a href="#">ISO Certifications</a></li>
+              <li><a href="#">Awards</a></li>
+            </ul>
+          </div>
+
+          <!-- OUR DIVISIONS -->
+
+          <!-- CONTACT -->
+          <div class="footer-column footer-contact">
+            <h4>CONTACT US</h4>
+            <p>📍 New Delhi<br />New Delhi – India</p>
+            <p>📞 +922 4 285 7324</p>
+            <p>✉ info@justrelyservices.com</p>
+            <p>✉ info@justrelyproperties.com</p>
+          </div>
         </div>
-      </section> -->
 
-     
-
-     
-
-      
+        <!-- BOTTOM BAR -->
+        <div class="footer-bottom">
+          <p>© JTS TECHNOLOGIES. ALL RIGHTS RESERVED.</p>
+          <div class="footer-links">
+            <a href="#">Terms & Conditions</a>
+            <span>|</span>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </footer>
     </main>
 
-   
-
-    <script src="./main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
+    <script src="./main.js"></script>
   </body>
 </html>
